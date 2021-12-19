@@ -1,0 +1,78 @@
+@media screen and (max-width: 767px) {
+#location {
+    background: #eaeaea;
+    font-weight: 500;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reservationSection {
+    padding: 6rem 2rem;
+}
+.reservationItem {
+    background: whitesmoke;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.reservbutton {
+    color: white;
+    padding: 1.5rem 3rem;
+    text-align: center;
+    background: #ff79da;
+    background: linear-gradient(162deg, #ff79da 0%, #9356dc 100%);
+    width: min-content;
+    white-space: nowrap;
+    margin: 4rem auto;
+    border-radius: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#restaurant {
+    background: #f6f6f6;
+}
+.restau {
+    height: 18rem;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 2rem 2rem 0 0;
+}
+.tag1 {
+    background: #a9e0d1;
+    color: #3b8468;
+    font-weight: 500;
+    padding: 0.7rem 1.5rem;
+    border-radius: 0.3rem;
+    position: absolute;
+    top: 70rem;
+    right: 1.5rem;
+}
+.tag2 {
+background: #a9e0d1;
+color: #3b8468;
+font-weight: 500;
+padding: 0.7rem 1.5rem;
+border-radius: 0.3rem;
+position: absolute;
+top: 96rem;
+right: 1.5rem;
+}
+.restautext {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.listElement {
+    background: #f6f6f6;
+    padding: 3rem;
+    box-shadow: rgba(50, 50, 93, 0) 0px 5px 20px 0px, rgba(0, 0, 0, 0.3) -1px 5px 30px -10px;
+    border-radius: 2rem;
+    margin-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+
+
+}
+}
