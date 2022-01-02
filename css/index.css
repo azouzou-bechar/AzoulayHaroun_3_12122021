@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+#bloc-page {
+    max-width:1400px;
+}
 html {
     line-height: 1.3;
 }
@@ -14,7 +17,7 @@ body {
 .header {
     background: white;
     height: 4rem;
-    box-shadow: 0px 8px 24px;
+    box-shadow: 0px 10px -6px;
     display: flex;
     position: sticky;
     top: 0;
@@ -23,6 +26,7 @@ body {
     margin: auto;
     height: 4rem;
 }
+
 footer{
     background:#353535;
     color:white;
@@ -39,9 +43,21 @@ ul {
     font-weight: 700;
     margin: 1rem 0rem;
 }
+/* modif footer */
+.end {
+ margin-left:7px;   
+}
+
 i {
     font-size: 1rem;
-    padding-right:10px; 
+    padding-right:10px;
 }
+.fa-arrow-left {
+    position: absolute;
+    right: 90.5em;
+    top: 1em;
+    left: 2em;
+}
+
 
 
