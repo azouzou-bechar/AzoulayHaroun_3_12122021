@@ -53,8 +53,8 @@
   
     .fa-heart {
         position: absolute;
-        font-size: 35px;
-        padding: 4px 0px 0px 331px;
+        right: 8px;
+bottom: 18px;
     }
     .step {
         margin: 0px 2rem 5rem 0;
@@ -100,6 +100,7 @@
         width: 100%;
         margin: 1em 0;
         height: 17em;
+        position: relative;
     }
   
     .img-wrapper img {
@@ -113,15 +114,14 @@
     }
     
     .cardNew {
-        position: relative;
+        position: absolute;
         padding: 8px 12px;
         border-radius: 2px;
         font-size: 0.8rem;
         color: #10392f;
         background-color: #99E2D0;
-        top: -34px;
-        right: -30.5em;
-        top: -14em;
+        top: 13px;
+        right: 1.5em;
     }
     h4 {
         font-weight: normal;

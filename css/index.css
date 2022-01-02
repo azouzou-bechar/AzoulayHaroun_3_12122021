@@ -19,7 +19,6 @@ body {
     height: 4rem;
     box-shadow: 0px 10px -6px;
     display: flex;
-    position: sticky;
     top: 0;
 }
 .header .headerLogo {
@@ -28,20 +27,27 @@ body {
 }
 
 footer{
-    background:#353535;
-    color:white;
+    background: #353535;
+    color: white;
     display: flex;
     flex-direction: column;
-    padding: 3rem;
+    padding: 1rem;
+    margin: 0px 0px 0 0;
+    
 }
 ul {
     list-style-type: none;
-    }
-.footerTitle {
+    margin: 10px 0px 0px 17px;
+}
+li {
+    padding:8px 0 0 0;
+}
+    .footerTitle {
     font-family: "Shrikhand", cursive;
     font-style: italic;
     font-weight: 700;
-    margin: 1rem 0rem;
+    margin: 10px 1rem;
+    padding: 0px 0px 0px 0px;
 }
 /* modif footer */
 .end {

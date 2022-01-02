@@ -41,6 +41,20 @@
         padding: 1em 1em 0;
         width: auto;
     }
+    .menuInfo {
+        display:flex
+    }
+    .fa-check-circle {
+        opacity: 0;
+    }
+    .fa-check-circle:active {
+        opacity: 1;
+        background-color: #99e2d0;
+        width: 100px;
+        height: 128px;
+        animation: myAnim 1s ease 0s 1 normal forwards;
+    }
+    
     .mainButton {
         color: white;
         padding: 1.5rem 3rem;
@@ -53,13 +67,10 @@
         border-radius: 30px;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
-    .menuPrice {
-        text-align: right;
-    }
    
     .allMenus {
-        display: flex;
-        flex-direction: row;
+       display: flex;
+     flex-direction: row;
         gap: 40px;
         align-content: space-between;
         margin: 0px 0 0 0;

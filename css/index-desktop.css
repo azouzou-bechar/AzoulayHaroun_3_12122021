@@ -1,7 +1,5 @@
 @media screen and (min-width:1025px) {
-    #bloc-page {
-        max-width:1400px;
-    }
+  
     #location {
         background: #eaeaea;
         font-weight: 500;
@@ -12,10 +10,10 @@
     }
     #choice {
         width: 100%;
-        padding-left: 1rem;
+        padding-left: 2rem;
         padding-right: 1rem;
 
-    }
+    }   
     .container {
         display:flex;
         flex-direction: row;
@@ -45,6 +43,9 @@
         border-radius: 30px;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
+     .reservbutton:hover {
+         transform: scale(1.02) ;
+     }
     h1 {
         font-size: 1.4rem;
         font-weight: bold;
@@ -54,10 +55,33 @@
         margin: 0px 10px 0px 15px;
     }
 
+    .restauTitle {
+        padding: 2rem 2rem 2rem 2rem;
+    
+    }
+
     .fa-heart {
         position: absolute;
         font-size: 35px;
-        padding: 4px 0px 0px 331px;
+        right: 8px;
+        bottom: 18px;
+    }
+    .fas {
+        color:transparent;
+        background-image:linear-gradient(162deg, #ff79da 0%, #9356dc 100%); 
+        background-clip: text;
+        -webkit-background-clip: text;
+        opacity: 0;
+        transition: all 200ms ease-in-out;
+    }
+    
+    .fas:hover {
+        opacity: 1;
+        transform: scale(1.2);
+
+    }
+    .far:hover {
+        opacity:0;
     }
     .step {
         margin: 0px 2rem 5rem 0;
@@ -107,6 +131,10 @@
         width: 100%;
         margin: 1em 0;
         height: 17em;
+        position: relative;
+    }
+    .card:hover {
+        transform: scale(1.02) ;
     }
   
     .img-wrapper img {
@@ -119,15 +147,14 @@
     }
     
     .cardNew {
-        position: relative;
+        position: absolute;
     padding: 8px 12px;
     border-radius: 2px;
     font-size: 0.8rem;
     color: #10392f;
     background-color: #99E2D0;
-    top: -34px;
-    right: -30.5em;
-    top: -14em;
+    top: 13px;
+    right: 1.5em;
     }
     h4 {
         font-weight: normal;
@@ -135,7 +162,7 @@
     .card-content {
         padding: 0.5rem;
     }
-    }
+}
 
 
 
