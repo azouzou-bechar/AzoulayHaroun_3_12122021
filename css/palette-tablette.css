@@ -1,4 +1,5 @@
 @media screen and (min-width: 768px) and (max-width:1024px) {
+ 
     .palette {
         object-fit: cover;
         width: 100%;
@@ -6,6 +7,26 @@
     }
     h1 {
         font-family: Shrikhand;
+    }
+    .fa-heart {
+        position: absolute;
+        font-size: 30px;
+        right: 40px;
+        top: 60px;
+    }
+    .heart i {
+        color:transparent;
+        background-image:linear-gradient(162deg, #ff79da 0%, #9356dc 100%); 
+        background-clip: text;
+        -webkit-background-clip: text;
+        opacity: 0;
+        transition: all 400ms ease-in-out;
+    }
+
+    .heart i:hover {
+        opacity: 1;
+        transform: scale(1.2);
+    
     }
     h2 {
         padding: 0px 0px 0px 0;
@@ -37,6 +58,37 @@
         margin: 25px 0px 31px 0px;
         padding: 1em 1em 0;
         width: auto;
+        background:#eeeeee;
+        border-radius:10px;
+        padding:15px;
+        padding-top:30px;
+        width:300px;
+        text-align:center;
+        margin:0 auto;
+        margin-top:10px;
+        height:75px;
+        animation-duration:1s;
+        animation-timing-function:ease-in-out;
+        animation-name:slideIn;
+      
+    }
+    
+    @keyframes slideIn{
+      
+          from{
+            
+              opacity:0;
+              transform:translate3d(0, 15px, 0);
+            
+          }
+          
+          to{
+            
+              opacity:1;
+              transform:translate3d(0,0,0);
+            
+          }
+      
     }
     .mainButton {
         color: white;

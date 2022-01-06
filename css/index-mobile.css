@@ -46,10 +46,27 @@ h1 {
 }
 .fa-heart {
     position: absolute;
-    right: 10px;
-    bottom: 12px;
     font-size: 30px;
-    }
+    right: 8px;
+    bottom: 22px;
+}
+.heart i {
+    color:transparent;
+    background-image:linear-gradient(162deg, #ff79da 0%, #9356dc 100%); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    opacity: 0;
+    transition: all 400ms ease-in-out;
+}
+
+.heart i:hover {
+    opacity: 1;
+    transform: scale(1.1);
+
+}
+.far-heart i:hover {
+    opacity:0;
+}
     .choiceTitle {
         margin: 0 0 -14px 1rem;
     }
@@ -66,7 +83,7 @@ h1 {
 }
 .step:hover {
     background-color: #ff79da21;
-    transform: scale(1.02);
+    transform: scale(1.2);
 }
 .step-number {
     width: 20px;

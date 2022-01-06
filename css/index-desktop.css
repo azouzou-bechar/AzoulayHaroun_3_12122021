@@ -62,26 +62,27 @@
 
     .fa-heart {
         position: absolute;
-        font-size: 35px;
+        font-size: 30px;
         right: 8px;
-        bottom: 18px;
+        bottom: 22px;
     }
-    .fas {
+    .heart i {
         color:transparent;
         background-image:linear-gradient(162deg, #ff79da 0%, #9356dc 100%); 
         background-clip: text;
         -webkit-background-clip: text;
         opacity: 0;
-        transition: all 200ms ease-in-out;
+        transition: all 400ms ease-in-out;
     }
-    
-    .fas:hover {
+
+    .heart i:hover {
         opacity: 1;
         transform: scale(1.2);
 
     }
-    .far:hover {
+    .far-heart i:hover {
         opacity:0;
+        
     }
     .step {
         margin: 0px 2rem 5rem 0;
@@ -101,7 +102,7 @@
     }
     .step:hover {
         background-color: #ff79da21;
-        transform: scale(1.02);
+        transform: scale(1.2);
     }
     .step-number { 
         width: 20px;
@@ -163,6 +164,7 @@
         padding: 0.5rem;
     }
 }
+
 
 
 
