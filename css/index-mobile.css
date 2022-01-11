@@ -102,11 +102,11 @@ h1 {
 .restaurants__figcaption__like__fullheart {
     position: absolute;
     left: 35em;
-top: 0em;
-left: 35em;
-top: -41px;
-width:1.5em;
-opacity:0;
+    top: 0em;
+    left: 35em;
+    top: -41px;
+    width:1.5em;
+    opacity:0;
 }
 
 

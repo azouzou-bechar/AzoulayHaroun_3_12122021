@@ -158,10 +158,13 @@ fa-check-circle {
         border-radius: 30px;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
+    mainButton:hover {
+        transform: scale(1.02);
+    }
    
     .allMenus {
        display: flex;
-     flex-direction: row;
+    flex-direction: row;
         gap: 40px;
         align-content: space-between;
         margin: 0px 0 0 0;
@@ -169,6 +172,6 @@ fa-check-circle {
     }
     .menuPrice {
         text-align: right;
-    margin:-19px 0 0 0;
+        margin:-19px 0 0 0;
     }
 }
