@@ -2,140 +2,140 @@
     <html>
         <head>
             <meta charset="utf8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1">
             <title>Oh my food</title>
             <script src="https://kit.fontawesome.com/b368ac6dc3.js" crossorigin="anonymous"></script>
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet"> 
             <link rel="stylesheet" href="css/index.css">
-            <link rel="stylesheet" href="css/note-mobile.css">
-            <link rel="stylesheet" href="css/note-tablette.css">
-            <link rel="stylesheet" href="css/note-desktop.css">
+            <link rel="stylesheet" href="css/main-mobile.css">
+            <link rel="stylesheet" href="css/main-tablette.css">
+            <link rel="stylesheet" href="css/main-desktop.css">
         </head>
     </head>
     <body>
-        <div id="bloc-page"></div>
+        <div id="bloc-page">
         <header class="header">
             <img class="headerLogo" src="pictures/ohmyfood@2x.svg" alt="Oh my food logo" width="173" height="30">
             <a class= "previous" href="index.html">
-                <i class="fas fa-arrow-left"></i>
-                </a>
+            <i class="fas fa-arrow-left"></i>
+            </a>
         </header>
         <main>
-            <img class="note" src="pictures/note.jpg" alt="">
+            <img class="palette" src="pictures/note.jpg" alt="">
             <section class="menuWrapper">
                 <header class="menuHeader">
-                    <h1 class="menuRestaurantTitle">La palette du goût</h1>
-                    <div class="title__logo"><i class="far fa-heart"></i></div>
+                    <h1 class="menuRestaurantTitle">La note enchantée</h1>
+                    <div class="restaurants__figcaption__like">
+                        <div class="restaurants__figcaption__like__emptyheart">
+                        <img src="pictures/heart-empty.svg" alt="">
+                        </div>
+                        <div class="restaurants__figcaption__like__fullheart">
+                        <img src="pictures/heart-full.svg" alt="">
+                        </div>
+                    </div>
                 </header>
                 <div class="allMenus">
                     <section class="menuList">
                         <h2 class="menuCategoryTitle">Entrées</h2>
                         <article class="menuItem">
-                            <div class="menuInfo">
-                                <div class="menuText">
-                                    <h3 class="menuTitle">Fricassée d'escargot</h3>
-                                    <p class="menuDetails">Au piment d'Espelette</p>
-                                </div>
-                                <p class="menuPrice"> 25€</p>
-                            </div>
-                            <div class="menuSelection">
+                            <div class="card">
+                            <p class="menuTitle">Ravioles de foie gras</p>
+                            <p class="menuDetails">Accompagnés de leur crème à la truffe</p>
+                            <p class="menuPrice"> 25€</p> 
+                            <div>
+                                <i class="fas fa-check-circle"></i>
                             </div>
                         </article>
                         <article class="menuItem">
-                            <div class="menuInfo">
-                                <div class="menuText">
-                                    <h3 class="menuTitle">Foie gras de canard mi-cuit</h3>
-                                    <p class="menuDetails">Et ses copeaux de truffe noire</p>
-                                </div>
+                                <div class="card">
+                                    <p class="menuTitle">Caviar osciètre</p>
+                                    <p class="menuDetails">Sur blini à la farine de blé noir</p>
                                 <p class="menuPrice"> 35€</p>
-                            </div>
-                            <div class="menuSelection">
+                            <div>
+                            <i class="fas fa-check-circle"></i>
                             </div>
                         </article>
                         <article class="menuItem">
-                            <div class="menuInfo">
-                                <div class="menuText">
-                                    <h3 class="menuTitle">Oeuf au plat</h3>
-                                    <p class="menuDetails">Assaisonné à la truffe sur lit de caviar</p>
-                                </div>
+                                <div class="card">
+                                    <p class="menuTitle">Homard et espuma de potiron</p>
+                                    <p class="menuDetails">Mariné aux zestes d'orange</p>
                                 <p class="menuPrice"> 20€</p>
-                            </div>
-                            <div class="menuSelection">
-                                <span class="material-icons checkIcon">check_circle</span>
+                            <div>
+                            <i class="fas fa-check-circle"></i>
                             </div>
                         </article>
+                        <article class="menuItem">
+                            <div class="card">
+                                <p class="menuTitle">Foie gras de canard cuit entier</p>
+                                <p class="menuDetails">Confiture de figue et pain toasté</p>
+                            <p class="menuPrice"> 35€</p>
+                        <div>
+                        <i class="fas fa-check-circle"></i>
+                        </div>
+                    </article>
                     </section>
                     <section class="menuList">
                         <h2 class="menuCategoryTitle">Plats</h2>
                         <article class="menuItem">
-                            <div class="menuInfo">
-                                <div class="menuText">
-                                    <h3 class="menuTitle">Filet de boeuf aux herbes</h3>
-                                    <p class="menuDetails">Accompagné de sa ribambelle de légumes</p>
-                                </div>
+                            <div class="card">
+                                    <p class="menuTitle">Noix de coquilles Saint-Jacques</h3>
+                                    <p class="menuDetails">sur lit de purée de céleri-rave</p>
                                 <p class="menuPrice">40€</p>
-                            </div>
-                            <div class="menuSelection">
+                            <div>
+                                <i class="fas fa-check-circle"></i>
                             </div>
                         </article>
                         <article class="menuItem">
-                            <div class="menuInfo">
-                                <div class="menuText">
-                                    <h3 class="menuTitle">Parmentier de queue de boeuf</h3>
-                                    <p class="menuDetails">À la truffe noire sur sa purée de panais</p>
-                                </div>
+                            <div class="card">
+                                
+                                    <p class="menuTitle">Langoustine poêlée</p>
+                                    <p class="menuDetails">Purée de patate douce</p>
                                 <p class="menuPrice"> 35€</p>
-                            </div>
-                            <div class="menuSelection">
-                                <span class="material-icons checkIcon">check_circle</span>
+                            <div>
+                                <i class="fas fa-check-circle"></i>
                             </div>
                         </article>
                         <article class="menuItem">
-                            <div class="menuInfo">
-                                <div class="menuText">
-                                    <h3 class="menuTitle">Filet de turbot</h3>
-                                    <p class="menuDetails">Aux agrumes</p>
-                                </div>
+                            <div class="card">
+                                    <p class="menuTitle">Mijoté de queue de boeuf</p>
+                                    <p class="menuDetails">ET riz sauvage aux zestes de citron</p>
                                 <p class="menuPrice"> 44€</p>
-                            </div>
-                            <div class="menuSelection">
+                            <div>
+                                <i class="fas fa-check-circle"></i>
                             </div>
                         </article>
                     </section>
                     <section class="menuList">
                         <h2 class="menuCategoryTitle">Desserts</h2>
                         <article class="menuItem">
-                            <div class="menuInfo">
-                                <div class="menuText">
-                                    <h3 class="menuTitle">Paris-Brest</h3>
-                                    <p class="menuDetails">Revisité</p>
-                                </div>
+                            <div class="card">
+                                    <p class="menuTitle">Macaron noisette et chocolat</p>
+                                    <p class="menuDetails">Glace au caramel brun et sel de Guérande</p>
                                 <p class="menuPrice">18€</p>
-                            </div>
-                            <div class="menuSelection">
+                            <div>
+                                <i class="fas fa-check-circle"></i>
                             </div>
                         </article>
                         <article class="menuItem">
-                            <div class="menuInfo">
-                                <div class="menuText">
-                                    <h3 class="menuTitle">Macaron au chocolat d'exception</h3>
-                                    <p class="menuDetails">Et glace à la vanille de Madagascar</p>
-                                </div>
+                            <div class="card">
+                                    <p class="menuTitle">Baba au rhum revisité</p>
+                                    <p class="menuDetails">Avec son coulis de citron</p>
                                 <p class="menuPrice">22€</p>
+                                <div>
+                                <i class="fas fa-check-circle"></i>
                             </div>
-                            <div class="menuSelection">
                             </div>
                         </article>
                         <article class="menuItem">
-                            <div class="menuInfo">
-                                <div class="menuText">
-                                    <h3 class="menuTitle">Mousse au chocolat</h3>
-                                    <p class="menuDetails">Au piment d'Espelette et à la truffe noire</p>
-                                </div>
+                            <div class="card">
+                                    <p class="menuTitle">Tarte au citron meringuée</p>
+                                    <p class="menuDetails">Destructurée</p>
                                 <p class="menuPrice">23€</p>
-                            </div>
-                            <div class="menuSelection">
+                                <div>
+                                <i class="fas fa-check-circle"></i>
+                                </div>
                             </div>
                         </article>
                     </section>
@@ -152,7 +152,7 @@
                     <li><i class="fas fa-utensils"></i>Proposer un restaurant</li>
                     <li><i class="fas fa-hands-helping"></i>Devenir partenaire</li>
                     <li>Mentions légales</li>
-                    <li>Contact</li>
+                    <li><a href="mailto:ha.azoulay93@gmail.com" class="contact">Contact</a></li>
                 </ul>
             </nav>
         </footer>

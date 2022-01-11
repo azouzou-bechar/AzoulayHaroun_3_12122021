@@ -1,5 +1,43 @@
 @media screen and (min-width:1025px) {
-  
+    .loader {
+        
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        position: fixed;
+        animation: fadeout 0.2s 3s forwards;
+        z-index:1;
+      } 
+      
+      .loader-spiner  {
+        border: 16px solid #f3f3f3;
+        border-top: 16px solid #ff79da;
+        border-bottom: 16px solid #99E2D0;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        animation: spin 2s linear infinite;
+        margin:auto;
+        position: absolute;
+        top: 0; left:0; right:0; bottom:0;
+        position:absolute;  
+        
+      }
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes fadeout {
+          
+      0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+        visibility: hidden;
+    }
+}
+
     #location {
         background: #eaeaea;
         font-weight: 500;
@@ -45,7 +83,7 @@
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
      .reservbutton:hover {
-         transform: scale(1.02) ;
+         transform: scale(1) ;
      }
     h1 {
         font-size: 1.4rem;
@@ -60,31 +98,38 @@
         padding: 2rem 2rem 2rem 2rem;
     
     }
-
-    .fa-heart {
+    
+    .restaurantmenu__presentation__title__like,
+    .restaurants__figcaption__like {
+      position: relative;
+      cursor: pointer;
+      width: 30px;
+    }
+    .restaurants__figcaption__like__emptyheart {
+      
+        width: 1.5rem;
         position: absolute;
-        font-size: 30px;
-        right: 8px;
-        bottom: 22px;
+        left: 35em;
+        top: -41px;
     }
-    .heart i {
-        color:transparent;
-        background-image:linear-gradient(162deg, #ff79da 0%, #9356dc 100%); 
-        background-clip: text;
-        -webkit-background-clip: text;
-        opacity: 0;
-        transition: all 400ms ease-in-out;
-    }
-
-    .heart i:hover {
-        opacity: 1;
-        transform: scale(1.2);
-
-    }
-    .far-heart i:hover {
+      
+    .restaurants__figcaption__like__fullheart {
+        position: absolute;
+        left: 35em;
+        top: 0em;
+        left: 35em;
+        top: -41px;
+        width:1.5em;
         opacity:0;
-        
     }
+
+    .restaurants__figcaption__like__fullheart:hover {
+      opacity: 1;
+      transition: 400ms ease-in-out;
+      width: 1.5em;
+      
+    }
+    
     .step {
         margin: 0px 2rem 5rem 0;
         width: 100%;
@@ -103,7 +148,7 @@
     }
     .step:hover {
         background-color: #ff79da21;
-        transform: scale(1.2);
+        transform: scale(1.02);
     }
     .step-number { 
         width: 20px;
@@ -143,9 +188,9 @@
         height: auto;
         max-height: 100%;
         width: 100%;
-        text-align: center;
-        object-fit: cover;
+        text-align: center;     
         height:200px;
+        object-fit: cover;
     }
     
     .cardNew {

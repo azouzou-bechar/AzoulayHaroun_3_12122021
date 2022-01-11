@@ -14,6 +14,11 @@
         <link rel="stylesheet" href="css/index-desktop.css">
     </head>
         <body>
+            <div class="loader">
+            <div class="loader-spiner">
+            </div>
+                </div>
+            </div>
             <div id="bloc-page">
                 <header class="header">
                     <img class="headerLogo" src="pictures/ohmyfood@2x.svg" alt="Oh my food logo" width="173" height="30">
@@ -44,7 +49,7 @@
                     Dégustez au restaurant</div>
                     </div>
                 </section>
-                <section id="restau" class="container">
+            <section id="restau" class="container">
                     <h1 class="restauTitle">Restaurants</h1>
                 <div class="card">
                     <div class="img-wrapper">
@@ -52,15 +57,20 @@
                             <img src="pictures/palette.jpg" alt="">
                         </a>
                         <span class="cardNew">Nouveau</span>
-                            <i class="far fa-heart"></i>
-                                <div class="heart">
-                                    <i class="fas fa-heart"></i>
-                                </div>
                     </div>
                         <div class="card-content">
                             <h3>La palette du goût</h3>
                             <h4>Ménilmontant</h4>
                         </div>
+                            <div class="restaurants__figcaption__like">
+                                <div class="restaurants__figcaption__like__emptyheart">
+                                <img src="pictures/heart-empty.svg" alt="">
+                                </div>
+                                <div class="restaurants__figcaption__like__fullheart">
+                                <img src="pictures/heart-full.svg" alt="">
+                                </div>
+                            </div>
+                            
                 </div>
                 <div class="card">
                     <div class="img-wrapper">
@@ -68,14 +78,19 @@
                         <img src="pictures/note.jpg" alt="">
                         </a>
                         <span class="cardNew">Nouveau</span>
-                           <i class="far fa-heart"></i>
-                                <div class="heart">
-                                <i class="fas fa-heart"></i>
-                                </div>
+                         
                     </div>
                         <div class="card-content">
                             <h3>La note enchantée</h3>
                             <h4>Charonne</h4>
+                </div>
+                <div class="restaurants__figcaption__like">
+                    <div class="restaurants__figcaption__like__emptyheart">
+                    <img src="pictures/heart-empty.svg" alt="">
+                    </div>
+                    <div class="restaurants__figcaption__like__fullheart">
+                    <img src="pictures/heart-full.svg" alt="">
+                    </div>
                 </div>
                         </div>
                 <div class="card">
@@ -83,14 +98,19 @@
                         <a href="delice.html">
                         <img src="pictures/francaise.jpg" alt="">
                         </a>
-                        <i class="far fa-heart"></i>
-                            <div class="heart">
-                                <i class="fas fa-heart"></i>
-                            </div>
+                        
                     </div>
                         <div class="card-content">
                             <h3>A la française</h3>
                             <h4>Cité Rouge</h4>
+                        </div>
+                        <div class="restaurants__figcaption__like">
+                            <div class="restaurants__figcaption__like__emptyheart">
+                            <img src="pictures/heart-empty.svg" alt="">
+                            </div>
+                            <div class="restaurants__figcaption__like__fullheart">
+                            <img src="pictures/heart-full.svg" alt="">
+                            </div>
                         </div>
                 </div>
                 <div class="card">
@@ -98,18 +118,23 @@
                         <a href="francais.html">
                         <img src="pictures/delice.jpg" alt="">
                         </a>
-                        <i class="far fa-heart"></i>
-                        <div class="heart">
-                        <i class="fas fa-heart"></i>
-                        </div>
+                        
                     </div>
                         <div class="card-content">
                             <h3>Le délice des sens</h3>
                             <h4>Folie-Méricourt</h4>
                         </div>
+                        <div class="restaurants__figcaption__like">
+                            <div class="restaurants__figcaption__like__emptyheart">
+                            <img src="pictures/heart-empty.svg" alt="">
+                            </div>
+                            <div class="restaurants__figcaption__like__fullheart">
+                            <img src="pictures/heart-full.svg" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
-                </section>
+        </section>
             </main>
                 <footer>
                     <h3 class ="footerTitle">ohmyfood</h3>
@@ -118,7 +143,7 @@
                             <li><i class="fas fa-utensils"></i><span class="end">Proposer un restaurant</span></li>
                             <li><i class="fas fa-hands-helping"></i>Devenir partenaire</li>
                             <li>Mentions légales</li>
-                            <li>Contact</li>
+                            <li><a href="mailto:ha.azoulay93@gmail.com" class="contact">Contact</a></li>
                         </ul>
                     </nav>
                 </footer>
