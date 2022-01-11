@@ -83,7 +83,7 @@
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
      .reservbutton:hover {
-         transform: scale(1) ;
+         transform: scale(1.02) ;
      }
     h1 {
         font-size: 1.4rem;
