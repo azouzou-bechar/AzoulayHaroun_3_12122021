@@ -128,8 +128,8 @@ h2 {
    transform:rotate(360deg);
 
 }
-fa-check-circle {
-    font-size: 30px;;
+.card i {
+    font-size: 25px;
 }
 
 

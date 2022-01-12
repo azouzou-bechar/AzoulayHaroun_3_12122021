@@ -137,10 +137,9 @@ font-style:bold;
    transform:rotate(360deg);
 
 }
-fa-check-circle {
-    font-size: 30px;;
+.card i {
+    font-size: 25px;
 }
-
 
     .menuInfo {
         display:flex

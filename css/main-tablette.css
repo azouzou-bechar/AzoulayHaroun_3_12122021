@@ -70,7 +70,7 @@
     justify-content: space-between;
 }
 .card{
-    width:300px;
+    width:auto;
     background:#eeeeee;
     padding:15px;
     border-radius:5px;
@@ -131,8 +131,8 @@
    transform:rotate(360deg);
 
 }
-fa-check-circle {
-    font-size: 30px;;
+.card i {
+    font-size: 25px;
 }
 
     
