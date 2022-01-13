@@ -165,4 +165,7 @@
         align-content: space-between;
         margin: 0px 0 0 0;
     }
+    .menuDetails {
+        padding-right: 34px;
+      }
 }

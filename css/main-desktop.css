@@ -173,4 +173,7 @@ font-style:bold;
         text-align: right;
         margin:-19px 0 0 0;
     }
+    .menuDetails {
+        padding-right: 34px;
+      }
 }
