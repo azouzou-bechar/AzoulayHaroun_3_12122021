@@ -86,39 +86,52 @@ h1 {
     
 }
 
-.restaurantmenu__presentation__title__like,
-.restaurants__figcaption__like {
-  position: relative;
-  cursor: pointer;
-  width: 30px;
-}
+
 .restaurants__figcaption__like__emptyheart {
-  
     width: 1.5rem;
     position: absolute;
-    left: 35em;
-    top: -41px;
+    left: 16em;
+    top: 219px;
+   
 }
-  
+.restaurants__figcaption__like {
+    display: flex;
+    align-items: center;
+    justify-content: right  ;
+    position: relative;
+    
+}
 
-
-.restaurants__figcaption__like__fullheart {
+.restaurants__figcaption__like__emptyheart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5em;
     position: absolute;
-    left: 35em;
-    top: 0em;
-    left: 35em;
-    top: -41px;
-    width:1.5em;
-    opacity:0;
+    top: -38px;
+    left: 441px;
 }
 
+  
+.restaurants__figcaption__like__fullheart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    position: absolute;
+    width: 1.5em;
+    top: -38px;
+    left: 441px;
+}
 
 .restaurants__figcaption__like__fullheart:hover {
   opacity: 1;
   transition: 400ms ease-in-out;
-  width: 1.5em;
+  position: absolute;
   
 }
+
+
 
     .choiceTitle {
         margin: 0 0 -14px 1rem;
