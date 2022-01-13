@@ -30,7 +30,7 @@ body {
 .header {
     background: white;
     height: 4rem;
-    box-shadow: 0px 10px -6px;
+    box-shadow: 0px 10px 0px;
     display: flex;
     top: 0;
 }

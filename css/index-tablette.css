@@ -51,6 +51,15 @@
         padding-right: 1rem;
 
     }
+    
+    .reservationContainer {
+        padding: 6rem 2rem;
+        background: whitesmoke;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
     .container {
         display:flex;
         flex-direction: row;
@@ -58,16 +67,6 @@
 
     }
     
-    .reservationSection {
-        padding: 6rem 2rem;
-    }
-    .reservationItem {
-        background: whitesmoke;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        justify-content: center;
-    }
     .reservbutton {
         color: white;
         padding: 1.5rem 3rem;
