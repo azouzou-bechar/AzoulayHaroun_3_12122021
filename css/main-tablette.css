@@ -43,6 +43,7 @@
         width: 10%;
         border-bottom: 4px solid #99e2d0;
     }
+
     .menuPrice , .menuTitle{
         font-weight: bold;
         }
@@ -70,7 +71,7 @@
     justify-content: space-between;
 }
 .card{
-    width:auto;
+    width:220px;
     background:#eeeeee;
     padding:15px;
     border-radius:5px;
@@ -164,6 +165,8 @@
         gap: 10px;
         align-content: space-between;
         margin: 0px 0 0 0;
+        justify-content: center;
+
     }
     .menuDetails {
         padding-right: 34px;

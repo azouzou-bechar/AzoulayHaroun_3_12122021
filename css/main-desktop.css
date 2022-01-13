@@ -57,14 +57,7 @@
         position: relative;
         margin-top: -4rem;
     }
-    .menuHeader {
-        margin-top: 2rem;
-        margin-bottom: 4rem;
-        display:flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-   
+  
 .menuHeader {
     margin-top: 2rem;
     margin-bottom: 4rem;
