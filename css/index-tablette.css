@@ -78,9 +78,12 @@
         margin: 4rem auto;
         border-radius: 30px;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        transition:filter ease 0.5s;
+        cursor:pointer;
     }
     .reservbutton:hover {
         transform: scale(1.02) ;
+        filter:brightness(1);
     }
     h1 {
         font-size: 1.4rem;
