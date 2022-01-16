@@ -79,6 +79,7 @@
         border-radius: 30px;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         transition:filter ease 0.5s;
+        filter:brightness(0.9);
         cursor:pointer;
     }
     .reservbutton:hover {
